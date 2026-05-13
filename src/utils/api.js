@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: 'https://shopmern-server.onrender.com' });
+const api = axios.create({ baseURL: 'https://shopmern-server.onrender.com/api' });
 
 // Attach JWT token to every request automatically
 api.interceptors.request.use(config => {
